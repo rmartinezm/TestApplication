@@ -14,7 +14,7 @@ import kotlinx.android.synthetic.main.bottom_sheet_dialog_list.*
  *
  *
  */
-class BottomSheetDialogList(private val items: List<String>) : BottomSheetDialogFragment() {
+class BottomSheetDialogFragmentList(private val items: List<String>) : BottomSheetDialogFragment() {
 
     /**
      *

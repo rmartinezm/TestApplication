@@ -31,8 +31,8 @@ class MainActivity : AppCompatActivity() {
      *
      */
     private fun showDialog(ignore: View){
-        val bottomSheetDialogList = BottomSheetDialogList(listOf("Hello", "World", "This", "is", "Android"))
-        bottomSheetDialogList.show(supportFragmentManager, BottomSheetDialogList::javaClass.name)
+        val bottomSheetDialogList = BottomSheetDialogFragmentList(listOf("Hello", "World", "This", "is", "Android"))
+        bottomSheetDialogList.show(supportFragmentManager, BottomSheetDialogFragmentList::javaClass.name)
     }
 
 }
